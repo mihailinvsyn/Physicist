@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="./lab3.css">
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../../pictures/atom.png" type="image/png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Измерение ускорения свободного падения</title>
+</head>
+<body>
+    <div class="content">
+        <div class="header">
+            <img src="../../pictures/atom.png" alt="" class="headlogo">
+            <p class="headertext">Измерение коэффициента<br> трения скольжения</p>
+        </div>
+        <p class="maintext"><span class="main">Цель работы: </span> исследовать зависимость силы трения скольжения от силы нормального давления; проверить достоверность оценки коэффициента трения, убедившись в том, что резултаты измерения совпадают; разобрать способ измерения коэффициента трения моенты по исследуемой поверхности.<br><br><br><span class="main">Оборудование: </span>деревянный брусок, набор грузов, динамометр, деревянная линейка, измерительная лента.</p>
+        <p class="teor_obosn">Теоретическое обоснование</p>
+        <p class="teor"><span class="main">1.</span>Схема первого способа измерения коэффициента трения скольжения приведена ниже</p>
+        <img src="../../pictures/схема1.jpg" alt="" class="imgg">
+        <p class="teor">Деревянный брусок, на котором сверху помещаются грузы, присоеденен к динамометру.</p>
+        <p class="teor">При приложении к динамометру внешней силы брусок может перемещатся по горизонтально расположенной деревянной линейке. При равномерном движении бруска его ускорение равно нулю. Согласно второму закону Ньютона геометрическая сумма сил, действующих на брусок в этом случае, также равно нулю. Это озночает что сила трения скольжения уравновешивает силу растяжения пружины динамометра и может быть измерена динамометром.</p>
+        <p class="teor">Коэффициент трения скольжения определяется как коэффициент пропорциональности между силой трения <span class="task">F<sub>тр</sub></span> и силой нормального давления <span class="task">F<sub>⟂</sub></span> бруска с грузами на опору (или весом тела):</p>
+        <p class="formula">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F<sub>тр</sub> = µF<sub>⟂</sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup><span class="u">(1)</span></sup></p>
+        <p class="teor">Сила нормального давления <span class="task"> F<sub>⟂</sub></span> в данном случае равна весу бруска вместе с грузом и определяется взвешиванием. Тогда по результатам измерений <span class="task">F<sub>тр</sub></span> и <span class="task">F<sub>⟂</sub></span> можно вычислить коэффициент трения скольжения:</p>
+        <p class="formula">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;µ = F<sub>тр</sub>/F<sub>⟂</sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup><span class="u">(2)</span></sup></p>
+        <div class="shema">
+            <img src="../../pictures/схема1.jpg" alt="" class="imgg">
+            <br>
+            <img src="../../pictures/схема1.jpg" alt="" class="imgg">
+        </div>
+        <p class="teor">Согласно формуле (1) графиком зависимости <span class="task">F<sub>тр</sub></span> и <span class="task">F<sub>⟂</sub></span> является прямая линия (рис. 349). Как видно из графика, <span class="task">µ = tg α </span> (где <span class="task">α</span> - угол наклона прямой к оси абсцисс, если масштаб сил, откладываемых по осям координат одинаков).</p>
+        <br><br>
+        <p class="teor"><span class="main">2.</span> Второй способ измерения коэффициента трения скольжения не требует непосредственного измерения сил и соответственно использования динамометра. В этом случае один из концов линейки с помещенным на ней бруском и грузом постепенно приподнимают до тех пор, пока при небольшом толчке брусок не начнет равномерно скользить вниз по линейке (рис.350). В этот момент линейка образует угол <span class="task">α</span> с горизонталью, а сумма проекций сил на оси X и Y, действующих на тело, будет равна нулю:</p>
+        <p class="formula">(X) mgsin α - F<sub>тр</sub> = 0</p>
+        <p class="formula">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Y) mgcos α - N = 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup><span class="u">(3)</span></sup></p>
+        <p class="teor">Учитывая, что <span class="task">F<sub>тр</sub> = µF<sub>⟂</sub></span>, а <span class="task"> F<sub>⟂</sub> = N</span> по третьему закону Ньютона, можно представить систему уравнений (3) в виде</p>
+        <img src="../../pictures/системаlab3.png" alt="" class="imgg">
+        <p class="teor">Беря отношение правых и левых частей системы (4), получаем:</p>
+        <p class="formula">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;µ = tg α&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup><span class="u">(5)</span></sup></p>
+        <p class="teor">Как видно из рисунка (СХЕМА) 350,</p>
+        <p class="formula">tg α = h/a ,</p>
+        <img src="../../pictures/формулаlab3.png" alt="" class="imgg">
+        <p class="teor">Следовательно, </p>
+        <img src="../../pictures/формула2lab3.png" alt="" class="imgg">
+        <p class="teor_obosn">Ход работы</p>
+        <p class="teor"><span class="main">1.</span>С помощью динамометра определите вес деревянного бруска <span class="task">P<sub>0</sub></span>, бруска вместе с одним грузом ( <span class="task">P<sub>0</sub></span> + <span class="task">P</span>), бруска с двумя грузами (<span class="task">P<sub>0</sub></span> + <span class="task">2P</span>), бруска с тремя грузами (<span class="task">P<sub>0</sub></span> + <span class="task">3P</span>). Результаты занесите в таблицу ниже (в графу <span class="task"> F<sub>⟂</sub></span>).</p>
+        <center>
+            <div class="tables-responsive">
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>P<sub>0</sub>, Н</td>
+                        <td>P<sub>0</sub> + P, Н</td>
+                        <td>P<sub>0</sub> + 2P, Н</td>
+                        <td>P<sub>0</sub> + 3P, Н</td>
+                    </tr>
+                    <tr>
+                        <td>F<sub>⟂</sub>, Н</td>
+                        <td><input type="text" class="tabl" id="r1d1"></td>
+                        <td><input type="text" class="tabl" id="r1d2"></td>
+                        <td><input type="text" class="tabl" id="r1d3"></td>
+                        <td><input type="text" class="tabl" id="r1d4"></td>
+                    </tr>
+                    <tr>
+                        <td>F<sub>тр</sub>, Н </td>
+                        <td><input type="text" class="tabl" id="r2d1"></td>
+                        <td><input type="text" class="tabl" id="r2d2"></td>
+                        <td><input type="text" class="tabl" id="r2d3"></td>
+                        <td><input type="text" class="tabl" id="r2d4"></td>
+                    </tr>
+                </table>
+            </div>
+            </center>
+        <p class="teor"><span class="main">2.</span>Динамометром равномерно тяните брусок по линейке, измеряя силу тяги <span class="task">F<sub>т</sub> (F<sub>т</sub> = F<sub>тр</sub>).</span> Опыт повторите, нагрузим брусок одним, потом двумя и тремя грузами резултаты измерений <span class="task">F<sub>тр</sub></span> запишите в ту же таблицу.</p>
+        <p class="teor"><span class="main">3.</span>Постройте график зависимости <span class="task">F<sub>тр</sub> (F<sub>⟂</sub>)</span>, используя даные таблиц. Через начало отсчета проведите прямую линию так, чтобы число точек над прямой ровнялось числу точек под прямой.</p>
+        <button onclick="chart()">жми </button>
+
+
+    </div>
+    <a href="../../index.html" class="but">На главную</a>
+    <script src="./lab3.js"></script>
+</body>
+</html>
