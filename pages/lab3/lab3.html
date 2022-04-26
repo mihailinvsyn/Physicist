@@ -74,11 +74,16 @@
             </center>
         <p class="teor"><span class="main">2.</span>Динамометром равномерно тяните брусок по линейке, измеряя силу тяги <span class="task">F<sub>т</sub> (F<sub>т</sub> = F<sub>тр</sub>).</span> Опыт повторите, нагрузим брусок одним, потом двумя и тремя грузами резултаты измерений <span class="task">F<sub>тр</sub></span> запишите в ту же таблицу.</p>
         <p class="teor"><span class="main">3.</span>Постройте график зависимости <span class="task">F<sub>тр</sub> (F<sub>⟂</sub>)</span>, используя даные таблиц. Через начало отсчета проведите прямую линию так, чтобы число точек над прямой ровнялось числу точек под прямой.</p>
-        <button onclick="chartt()">жми</button>
-
+        <div class="forChart">
+            <canvas id="myChart"></canvas>
+        </div>
+        <center>
+            <button onclick="chartt()" class="but_count">построить график</button>
+        </center>
 
     </div>
     <a href="../../index.html" class="but">На главную</a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
     <script src="./lab3.js"></script>
 </body>
 </html>
