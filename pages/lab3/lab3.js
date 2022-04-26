@@ -11,6 +11,5 @@ function chartt(){
     var Pr2d3 = document.getElementById('r2d3').value;
     var Pr2d4 = document.getElementById('r2d4').value;
 
-    alert(Pr2d3)
-    var chartX = [] 
+    alert(Pr2d3) 
 }
