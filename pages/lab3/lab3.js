@@ -40,7 +40,7 @@ function chartt(){
                 backgroundColor: [
                     'transparent'
                 ],
-                borderColor: 'rgb(99, 27, 103)'
+                borderColor:'rgb(99, 27, 103)'
             }]
         },
         options: {
@@ -52,4 +52,11 @@ function chartt(){
               }
           }
     });
+}
+function mu(){
+    var fx = document.getElementById("fx").value;
+    var fy = document.getElementById("fy").value;
+    var mu = fx/fy;
+    var formForMu = document.getElementById("formForMu");
+    formForMu.value = mu;
 }

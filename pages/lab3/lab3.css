@@ -138,8 +138,35 @@ td{
     text-transform: lowercase;
     height: 60px;
     transition: 0.25s;
+
 }
 .but_count:hover, .but_count_1:hover{
     background-color: rgb(99, 27, 103);
     color: #F9EFF7;
+
 } 
+.form{
+    font-family: 'Montserrat', sans-serif ;
+    background-color: #F9EFF7;
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 150px;
+}
+.form2{
+    font-family: 'Montserrat', sans-serif ;
+    background-color: #F9EFF7;
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 80px;
+}
+
+.ob{
+    padding-right: 3%;
+}
+.object{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
