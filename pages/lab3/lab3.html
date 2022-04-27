@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="../../pictures/atom.png" type="image/png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Измерение ускорения свободного падения</title>
+    <title>Измерение коэффициента трения скольжения</title>
 </head>
 <body>
     <div class="content">
@@ -110,29 +110,41 @@
             </div>
             <button onclick="deltaMu()" class="but_count">узнать результат</button>
         </div>
-        <p class="teor"><span class="main">7.</span>Запишите значение каоэффициента трения скольжения с учетом абсолютной погрешности измерения:</p>
+        <p class="teor"><span class="main">7.</span>Запишите значение коэффициента трения скольжения с учетом абсолютной погрешности измерения:</p>
         <p class="formula">µ ± ∆µ</p>
         <div class="object" style="margin-top: 40px">
             <div class="ob">
-                <p class="formula">µ ± ∆µ = <input type="text" class="form2" id="fxmin"> ± <input type="text" class="form2" id="fymin"></p>
+                <p class="formula">µ ± ∆µ = <input type="text" class="form2" id="mu1"> ± <input type="text" class="form2" id="mu2"></p>
             </div>
-            <button onclick="deltaMu()" class="but_count">узнать результат</button>
+            <button onclick="answer()" class="but_count">узнать результат</button>
         </div>
     
-    
-    
-    
+
+        <p class="teor"><span class="main">8.</span>Измерьте длину линейки <span class="task">l  (∆l = 1 см)</span>.</p>
+        <p class="formula"> l = <input type="text" class="form" id="l"></p>
+
+        <p class="teor"><span class="main">9.</span>Отсоедините динамометр от бруска. На один из концов линейки поместите брусок с одним грузом и медленно приподнимите его (РИСУНОК 350). Измерьте высоту подъема <span class="task">h</span> конца линейки, когда при небольшом толчке брусок начинает скользить вниз равномерно <span class="task">(∆h = 1 см).</span> </p>
+        <p class="formula"> h = <input type="text" class="form" id="h"></p>
+        <p class="teor"><span class="main">10.</span> Вычислите коэффициент трения скольжения по формуле (6).</p>
+        <div class="object" style="margin-top: 40px">
+            <div class="ob">
+                <p class="formula">µ = <input type="text" class="form" id="mu6"></p>
+            </div>
+            <button onclick="mu6()" class="but_count">узнать результат</button>
+        </div>
+        <p class="teor"><span class="main">11.</span>Рассчитайте относительную погрешность косвенного измерения коэффициента трения скольжения по формуле</p>
+        <img src="../../pictures/формула3 lab3.png" alt="" class="imgg">
+
+        <div class="object" style="margin-top: 40px">
+            <div class="ob">
+                <p class="formula">ε = <input type="text" class="form" id="e"></p>
+            </div>
+            <button onclick="e()" class="but_count">узнать результат</button>
+        </div>
+        <p class="teor"><span class="main">12.</span>Вычислите абсолютную погрешность измерения <span class="task">µ</span>.</p>
+
+
     </div>
-
-
-
-
-
-
-
-
-
-    
     <a href="../../index.html" class="but">На главную</a>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
     <script src="./lab3.js"></script>

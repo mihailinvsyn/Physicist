@@ -74,3 +74,29 @@ function deltaMu(){
     var formDeltaMu = document.getElementById("formForDeltaMu");
     formDeltaMu.value = deltaMu;
 }
+function answer(){
+    var mu = document.getElementById("formForMu").value;
+    var deltaMu = document.getElementById("formForDeltaMu").value;
+    
+    var mu1 = document.getElementById("mu1");
+    var mu2 = document.getElementById("mu2");
+
+    mu1.value = mu;
+    mu2.value = deltaMu;
+}
+function mu6(){
+    var h = document.getElementById("h").value;
+    var l = document.getElementById("l").value;
+    //mu = h/((l**2 - h**2)**0.5)
+    var mu = document.getElementById("mu6");
+    mu.value = h/(l**2 - h**2)**0.5;
+}
+function e(){
+    //е = (deltaH/h) + ((l * deltaL + h * deltaH)/( l**2 - h**2))
+    var e = document.getElementById("e");
+    var deltaH = 1;
+    var h = document.getElementById("h").value;
+    var l = document.getElementById("l").value;
+    var deltaL = 1;
+    e.value = (deltaH/h) + ((l * deltaL + h * deltaH)/( l**2 - h**2));
+}
