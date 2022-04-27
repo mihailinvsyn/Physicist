@@ -85,11 +85,12 @@ function answer() {
     mu2.value = deltaMu;
 }
 function mu6() {
-    var h = document.getElementById("h").value;
-    var l = document.getElementById("l").value;
+    var h = parseInt(document.getElementById("h").value);
+    var l = parseInt(document.getElementById("l").value);
     //mu = h/((l**2 - h**2)**0.5)
     var mu = document.getElementById("mu6");
     mu.value = h / (l ** 2 - h ** 2) ** 0.5;
+    alert(h / (l ** 2 - h ** 2) ** 0.5);
 }
 function e() {
     //е = (deltaH/h) + ((l * deltaL + h * deltaH)/( l**2 - h**2))
