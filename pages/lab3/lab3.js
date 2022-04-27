@@ -67,3 +67,10 @@ function muMin(){
     var formForMuMin = document.getElementById("formForMuMin")
     formForMuMin.value = muMin;
 }
+function deltaMu(){
+    var mu = document.getElementById("formForMu").value;
+    var muMin = document.getElementById("formForMuMin").value;
+    var deltaMu = mu - muMin;
+    var formDeltaMu = document.getElementById("formForDeltaMu");
+    formDeltaMu.value = deltaMu;
+}
