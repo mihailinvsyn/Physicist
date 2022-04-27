@@ -34,7 +34,7 @@ function chartt(){
         data: {
             labels: [0, Pr1d1, Pr1d2 ,Pr1d3, Pr1d4 ],
             datasets: [{
-                label: "students",
+                label: "",
                 data: [0, Pr2d1, Pr2d2, Pr2d3, Pr2d4],
                 fill: true,
                 backgroundColor: [
@@ -56,7 +56,14 @@ function chartt(){
 function mu(){
     var fx = document.getElementById("fx").value;
     var fy = document.getElementById("fy").value;
-    var mu = fx/fy;
+    var mu = fy/fx;
     var formForMu = document.getElementById("formForMu");
     formForMu.value = mu;
+}
+function muMin(){
+    var fx = document.getElementById("fxmin").value;
+    var fy = document.getElementById("fymin").value;
+    var muMin = fy/fx
+    var formForMuMin = document.getElementById("formForMuMin")
+    formForMuMin.value = muMin;
 }
