@@ -14,7 +14,7 @@
             <img src="../../pictures/atom.png" alt="" class="headlogo">
             <p class="headertext">Измерение коэффициента<br> трения скольжения</p>
         </div>
-        <p class="maintext"><span class="main">Цель работы: </span> исследовать зависимость силы трения скольжения от силы нормального давления; проверить достоверность оценки коэффициента трения, убедившись в том, что резултаты измерения совпадают; разобрать способ измерения коэффициента трения моенты по исследуемой поверхности.<br><br><br><span class="main">Оборудование: </span>деревянный брусок, набор грузов, динамометр, деревянная линейка, измерительная лента.</p>
+        <p class="maintext"><span class="main">Цель работы: </span> исследовать зависимость силы трения скольжения от силы нормального давления; проверить достоверность оценки коэффициента трения, убедившись в том, что результаты измерения совпадают; разобрать способ измерения коэффициента трения монеты по исследуемой поверхности.<br><br><br><span class="main">Оборудование: </span>деревянный брусок, набор грузов, динамометр, деревянная линейка, измерительная лента.</p>
         <p class="teor_obosn">Теоретическое обоснование</p>
         <p class="teor"><span class="main">1.</span>Схема первого способа измерения коэффициента трения скольжения приведена ниже</p>
         <img src="../../pictures/схема1.jpg" alt="" class="imgg">
@@ -142,8 +142,30 @@
             <button onclick="e()" class="but_count">узнать результат</button>
         </div>
         <p class="teor"><span class="main">12.</span>Вычислите абсолютную погрешность измерения <span class="task">µ</span>.</p>
+        <p class="formula">∆µ = µε</p>
+        <div class="object" style="margin-top: 40px">
+            <div class="ob">
+                <p class="formula">∆µ = <input type="text" class="form" id="deltaMu2"></p>
+            </div>
+            <button onclick="deltaMu2()" class="but_count">узнать результат</button>
+        </div>
+        <p class="teor"><span class="main">13.</span>Запишите окончательный результат в виде</p>
+        <p class="formula">µ + ∆µ</p>
+        <div class="object" style="margin-top: 40px">
+            <div class="ob">
+                <p class="formula">µ + ∆µ = <input type="text" class="form" id="answer2"></p>
+            </div>
+            <button onclick="answer2()" class="but_count">узнать результат</button>
+        </div>
+        <p class="teor"><span class="main">14.</span>Сравните величины коэффициента трения скольжения, измеренные двумя различными способами. Сделайте вывод.</p>
 
-
+        <div class="object" style="margin-top: 40px">
+            <div class="ob">
+                <p class="formula"><input type="text" class="form" id="muForCompare1"> = <input type="text" class="form" id="muForCompare2"></p>
+            </div>
+            <button onclick="compare()" class="but_count">сравнить</button>
+        </div>
+        <p class="teor"><span class="teor_obosn">Вывод:</span> мы исследовали зависимость силы трения скольжения от силы нормального давления, проверили достоверность оценки коэффициента трения. Сравнили величины коэффициента трения скольжения, измеренные двумя различными способами.</p>
     </div>
     <a href="../../index.html" class="but">На главную</a>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
