@@ -90,7 +90,6 @@ function mu6() {
     //mu = h/((l**2 - h**2)**0.5)
     var mu = document.getElementById("mu6");
     mu.value = h / (l ** 2 - h ** 2) ** 0.5;
-    alert(h / (l ** 2 - h ** 2) ** 0.5);
 }
 function e() {
     //е = (deltaH/h) + ((l * deltaL + h * deltaH)/( l**2 - h**2))
