@@ -75,6 +75,11 @@ body{
 a{
     text-decoration: none;
     color: black;
+    transition: 0.25s;
+}
+a:hover{
+    color: rgb(99, 27, 103);
+    font-weight: bold;
 }
 li{
     margin-bottom: 2%;
